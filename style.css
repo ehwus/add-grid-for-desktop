@@ -1,62 +1,72 @@
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  overflow: auto;
+}
+
 .top {
   background-color: rgb(213, 213, 213);
-  height: 530px;
-  padding-top: 15px;
+  height: 380px;
+  padding-top: 20px;
 }
 
 .top-row-1 {
   display: block;
   background-color: rgb(38, 38, 38);
-  height: 100px;
-  width: 80%;
+  height: 60px;
+  width: 1000px;
   margin: auto;
 }
 
 .top-row-2 {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 1000px;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 20px;
 }
 
 .top-row-2-object {
-  height: 400px;
-  width: 49.5%;
+  height: 278px;
+  width: 490px;
   background-color: rgb(38, 38, 38);
 }
 
 .bottom {
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .bottom-row-1 {
   display: block;
   background-color: rgb(135, 135, 135);
-  height: 100px;
-  width: 80%;
+  height: 60px;
+  width: 1000px;
   margin: auto;
 }
 
 .bottom-row-2 {
   display: block;
   background-color: rgb(135, 135, 135);
-  height: 200px;
-  width: 80%;
+  height: 145px;
+  width: 1000px;
   margin: auto;
-  margin-top: 15px;
+  margin-top: 20px;
 }
 
 .bottom-row-3 {
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 1000px;
   margin: auto;
-  padding-top: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .bottom-row-3-object {
-  height: 400px;
-  width: 32.5%;
+  height: 278px;
+  width: 318px;
   background-color: rgb(135, 135, 135);
 }
