@@ -94,4 +94,19 @@
     width: 335px;
     margin-top: 20px;
   }
+
+  .bottom-row-3 {
+    flex-direction: column;
+    margin-bottom: 80px;
+  }
+
+  .bottom-row-1 {
+    margin-top: 10px;
+  }
+
+  .bottom-row-3-object {
+    height: 150px;
+    width: 335px;
+    margin-bottom: 20px;
+  }
 }
