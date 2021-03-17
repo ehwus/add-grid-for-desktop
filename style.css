@@ -7,6 +7,10 @@
   overflow: auto;
 }
 
+.row {
+  width: 1000px;
+}
+
 .top {
   background-color: rgb(213, 213, 213);
   height: 380px;
@@ -18,14 +22,12 @@
   display: block;
   background-color: rgb(38, 38, 38);
   height: 60px;
-  width: 1000px;
   margin: auto;
 }
 
 .top-row-2 {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
   margin: auto;
   padding-top: 20px;
 }
@@ -44,7 +46,6 @@
   display: block;
   background-color: rgb(135, 135, 135);
   height: 60px;
-  width: 1000px;
   margin: auto;
 }
 
@@ -52,7 +53,6 @@
   display: block;
   background-color: rgb(135, 135, 135);
   height: 145px;
-  width: 1000px;
   margin: auto;
   margin-top: 20px;
 }
@@ -60,7 +60,6 @@
 .bottom-row-3 {
   display: flex;
   justify-content: space-between;
-  width: 1000px;
   margin: auto;
   padding-top: 20px;
   padding-bottom: 20px;
@@ -70,4 +69,29 @@
   height: 278px;
   width: 318px;
   background-color: rgb(135, 135, 135);
+}
+
+@media only screen and (max-width: 950px) {
+  .row {
+    width: 335px;
+  }
+
+  .top {
+    height: 480px;
+  }
+
+  .top-row-1 {
+    height: 60px;
+  }
+
+  .top-row-2 {
+    flex-direction: column;
+    margin-top: -20px;
+  }
+
+  .top-row-2-object {
+    height: 180px;
+    width: 335px;
+    margin-top: 20px;
+  }
 }
