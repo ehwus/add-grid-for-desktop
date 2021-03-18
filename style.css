@@ -1,14 +1,11 @@
-.container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  overflow: auto;
+body {
+  margin: 0;
 }
 
 .row {
-  width: 1000px;
+  width: 80%;
+  max-width: 1000px;
+  min-width: 335px;
 }
 
 .top {
@@ -34,7 +31,7 @@
 
 .top-row-2-object {
   height: 278px;
-  width: 490px;
+  width: 48%;
   background-color: rgb(38, 38, 38);
 }
 
@@ -67,11 +64,11 @@
 
 .bottom-row-3-object {
   height: 278px;
-  width: 318px;
+  width: 31%;
   background-color: rgb(135, 135, 135);
 }
 
-@media only screen and (max-width: 950px) {
+@media only screen and (max-width: 400px) {
   .row {
     width: 335px;
   }
